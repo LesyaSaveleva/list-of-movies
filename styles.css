@@ -10,6 +10,7 @@ body {
     margin: 80px auto;
     pad: 50px 30px 0px;
     width: 1000px;
+    box-sizing: border-box;
 }
 
 .information {
@@ -159,7 +160,6 @@ input:focus{
 @media (max-width: 900px) {
     .listOfMovies {
         width: 100%;
-        box-sizing: border-box;
     }
 
     h1 {
@@ -203,6 +203,7 @@ input:focus{
 
     .moviesCheck {
         height: 450px;
+        padding: 60px 15px;
     }
 
     h1 {
@@ -220,5 +221,28 @@ input:focus{
     .moviesCheck-btn {
         width: 42px;
         height: 42px;
+    }
+
+    .movie_title_list {
+        margin-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 50px;
+    }
+
+    .movie_title {
+        font-size: 15px;
+        line-height: 50px;
+    }
+
+    .movie_title-btn {
+        margin-right: 10px;
+    }
+
+    .movie_title-btn,
+    .delete_movie-btn {
+        width: 15px;
+        height: 15px;
+
     }
 }
