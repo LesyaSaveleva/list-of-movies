@@ -94,7 +94,7 @@ input:focus{
 .listofmovies {
     margin-top: 50px;
     width: 100%;
-    height: 400px;
+    height: 100%;
     overflow-y: auto;
     scrollbar-width: thin;
     scrollbar-color: #232323 #3A3939;
@@ -203,7 +203,12 @@ input:focus{
 
     .moviesCheck {
         height: 450px;
-        padding: 60px 15px;
+        padding: 40px 15px;
+    }
+
+     .listofmovies {
+        height: 290px;
+        margin-top: 30px;
     }
 
     h1 {
