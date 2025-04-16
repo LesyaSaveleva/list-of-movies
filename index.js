@@ -62,6 +62,8 @@ listofmoviesNode.addEventListener('click', function(event) {
 listofmoviesNode.addEventListener('click', function(event) {
     if (event.target.classList.contains('movie_title-btn-js')) {
         const btnClicked = event.target; // получаем элемент, который нажали
+        const index = event.target.dataset.index;
+        const currentMovie = movies[index];
         if (btnClicked.classList.contains('changeOfStyle-btn')) {
             btnClicked.classList.remove('changeOfStyle-btn');
             const title = btnClicked.nextElementSibling; // выбор следующего элемента в родителе (это название фильма)
