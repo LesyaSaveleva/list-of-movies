@@ -36,6 +36,7 @@ moviesInputNode.addEventListener('keyup', function(event){
         }
         
     }
+    loadStyle();
 })
 // Добавление фильма в список по кнопке
 addMoviesBtnNode.addEventListener('click', function(){
@@ -45,6 +46,7 @@ addMoviesBtnNode.addEventListener('click', function(){
         submitText();
         saveMovieList();
     }
+    loadStyle();
 })
 
 // Удаление фильма из списка с помощью делегирования событий на родительский элемент
@@ -56,6 +58,7 @@ listofmoviesNode.addEventListener('click', function(event) {
             saveMovieList();
         }
     }
+    loadStyle();
 });
 
 // Отметка фильма как просмотренного
